@@ -100,6 +100,7 @@ module Innodb
       NEWDATE:      MysqlType.new(value: 14,  type: :DATE),
       VARCHAR:      MysqlType.new(value: 15,  type: :VARCHAR),
       BIT:          MysqlType.new(value: 16,  type: :BIT),
+      JSON:         MysqlType.new(value: 245, type: :BLOB),
       NEWDECIMAL:   MysqlType.new(value: 246, type: :CHAR),
     # ENUM:         MysqlType.new(value: 247, type: :ENUM),
     # SET:          MysqlType.new(value: 248, type: :SET),
